@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\abarz\OneDrive\Desktop\Builer_Design_Pattern\.metadata\.plugins\org.eclipse.jdt.core
+1069022944.index
+2660320660.index
+2014003718.index
+1865797976.index

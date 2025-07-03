@@ -1,0 +1,23 @@
+
+
+public class BurgerDirector {
+
+	private BurgerBuilder burgerBuilder;
+
+	public void setBuilder(BurgerBuilder burgerBuilder) {
+		this.burgerBuilder = burgerBuilder;
+	}
+
+	public Burger makeBurger() {
+		burgerBuilder.buildBurgerBun();
+		burgerBuilder.buildBurgerMeat();
+		burgerBuilder.buildBurgerCheese();
+		burgerBuilder.buildBurgerGreens();
+		burgerBuilder.buildBurgerSauce();
+		burgerBuilder.buildBurgerVeggies();
+		burgerBuilder.buildBurgerOthers();
+		return burgerBuilder.getBurger();
+
+	}
+
+}
